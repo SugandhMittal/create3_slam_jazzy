@@ -12,6 +12,12 @@ The official [create3_lidar_slam example](https://github.com/iRobotEducation/cre
 - USB Micro-B to USB-A cable
 - Some screws to fix these
 
+## Demonstration
+
+![Lidar Working With SLAM](./Demonstration/LidarWorkingWithSLAM.gif)
+
+
+
 ## Setup
 
 ### Hardware Setup
