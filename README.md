@@ -45,7 +45,7 @@ Once you are connected to your Raspberry Pi, clone this repository, build it, an
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/SugandhMittal/Create3_Jazzy.git
+git clone https://github.com/SugandhMittal/create3_slam_jazzy
 git clone https://github.com/Slamtec/sllidar_ros2.git
 cd ~/ros2_ws
 colcon build --symlink-install
@@ -55,7 +55,7 @@ Run the sensors launch script, which includes the LIDAR driver and transform fro
 
 ```bash
 source ~/ros2_ws/install/local_setup.sh
-ros2 launch Create3_jazzy sllidar_a1_launch_modified.py
+ros2 launch create3_slam_jazzy sllidar_launch.py
 ```
 
 ### On the Computer
@@ -64,7 +64,7 @@ clone this repository, build it, and **source the setup script in every terminal
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/SugandhMittal/Create3_Jazzy.git
+git clone https://github.com/SugandhMittal/create3_slam_jazzy
 cd ~/ros2_ws
 colcon build --symlink-install
 source ~/ros2_ws/install/local_setup.sh
@@ -98,13 +98,13 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 Open another terminal, source the setup script again, and run RViz:
 ```bash
-ros2 launch Create3_jazzy rviz_launch.py
+ros2 launch create3_slam_jazzy rviz_launch.py
 ```
 
 > ℹ️ The RViz launch file is taken directly from the official [create3_lidar_slam example](https://github.com/iRobotEducation/create3_examples/tree/jazzy/create3_lidar_slam) repository.
 
 
-
+**If there are any issues, I would be happy to correct them.**
 
 
 ---
