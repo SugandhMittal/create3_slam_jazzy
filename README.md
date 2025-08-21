@@ -40,6 +40,7 @@ Once you are connected to your Raspberry Pi, clone this repository, build it, an
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 git clone https://github.com/SugandhMittal/Create3_Jazzy.git
+git clone https://github.com/Slamtec/sllidar_ros2.git
 cd ~/ros2_ws
 colcon build --symlink-install
 source ~/ros2_ws/install/local_setup.sh
